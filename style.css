@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+body {
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+    background-image: url(https://i.pinimg.com/564x/10/fd/3e/10fd3ea586fc7c99bfa7223cf34e00a9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid #000000
+    
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.link-item {
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: aquamarine;
+    text-decoration: none;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+.link-item p{
+    margin-right: 60px;
+}
+
+.link-item{
+    transition: cubic-bezier(.07,1.41,.82, 1.41) 0,02;
+    transform: scale(1.02);
+
+    background-color: rgb(red, green, blue);
+}
+ a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    color: #00ffd5;
+    box-shadow: inset 700px 0 0 0 #ffffff;;
+  }
+  
+  /* Presentational styles */
+  a {
+    color: #54b3d6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height:    1.0;
+    text-decoration: none;
+  }
+  
+  body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+  }
